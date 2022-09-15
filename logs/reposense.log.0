@@ -1,48 +1,48 @@
-Sep 15, 2022 12:53:23 AM reposense.parser.CsvParser validateHeader
+Sep 15, 2022 3:00:21 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
-Sep 15, 2022 12:53:24 AM reposense.parser.CsvParser validateHeader
+Sep 15, 2022 3:00:21 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Sep 15, 2022 12:53:24 AM reposense.model.AuthorConfiguration checkDuplicateAliases
+Sep 15, 2022 3:00:21 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias badassengineer found. The alias will belong to the last author - badassengineer
-Sep 15, 2022 12:53:24 AM reposense.model.AuthorConfiguration checkDuplicateAliases
+Sep 15, 2022 3:00:21 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias badassengineer found. The alias will belong to the last author - badassengineer
-Sep 15, 2022 12:53:24 AM reposense.report.RepoCloner spawnCloneProcess
+Sep 15, 2022 3:00:21 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/badassengineer/ip.git...
-Sep 15, 2022 12:53:24 AM reposense.report.RepoCloner spawnCloneProcess
+Sep 15, 2022 3:00:21 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/roshankumar1991/ip.git...
-Sep 15, 2022 12:53:24 AM reposense.report.RepoCloner waitForCloneProcess
+Sep 15, 2022 3:00:21 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/badassengineer/ip.git to complete...
-Sep 15, 2022 12:53:24 AM reposense.report.RepoCloner waitForCloneProcess
+Sep 15, 2022 3:00:21 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/roshankumar1991/ip.git to complete...
-Sep 15, 2022 12:53:24 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/roshankumar1991/ip.git completed!
-Sep 15, 2022 12:53:24 AM reposense.report.RepoCloner waitForCloneProcess
+Sep 15, 2022 3:00:21 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/badassengineer/ip.git completed!
-Sep 15, 2022 12:53:24 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/2] Analyzing https://github.com/roshankumar1991/ip.git (master)...
-Sep 15, 2022 12:53:24 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/2] Analyzing https://github.com/badassengineer/ip.git (master)...
-Sep 15, 2022 12:53:24 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/roshankumar1991/ip.git (master) does not contain a standalone config file.
-Sep 15, 2022 12:53:24 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/roshankumar1991/ip.git (master)...
-Sep 15, 2022 12:53:24 AM reposense.report.ReportGenerator updateRepoConfig
+Sep 15, 2022 3:00:21 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/2] Analyzing https://github.com/badassengineer/ip.git (master)...
+Sep 15, 2022 3:00:21 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/roshankumar1991/ip.git completed!
+Sep 15, 2022 3:00:21 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/2] Analyzing https://github.com/roshankumar1991/ip.git (master)...
+Sep 15, 2022 3:00:21 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/badassengineer/ip.git (master) does not contain a standalone config file.
-Sep 15, 2022 12:53:24 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Sep 15, 2022 3:00:21 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/badassengineer/ip.git (master)...
-Sep 15, 2022 12:53:25 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/badassengineer/ip.git (master)...
-Sep 15, 2022 12:53:25 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/badassengineer/ip.git (master)...
-Sep 15, 2022 12:53:25 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Sep 15, 2022 3:00:21 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/roshankumar1991/ip.git (master) does not contain a standalone config file.
+Sep 15, 2022 3:00:21 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/roshankumar1991/ip.git (master)...
+Sep 15, 2022 3:00:22 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/roshankumar1991/ip.git (master)...
-Sep 15, 2022 12:53:25 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Sep 15, 2022 3:00:22 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/badassengineer/ip.git (master)...
+Sep 15, 2022 3:00:22 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/badassengineer/ip.git (master)...
+Sep 15, 2022 3:00:22 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/roshankumar1991/ip.git (master)...
-Sep 15, 2022 12:53:25 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/roshankumar1991/ip.git (master) completed!
-Sep 15, 2022 12:53:25 AM reposense.report.ReportGenerator analyzeRepo
+Sep 15, 2022 3:00:22 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/badassengineer/ip.git (master) completed!
-Sep 15, 2022 12:53:25 AM reposense.report.ReportGenerator generateReposReport
+Sep 15, 2022 3:00:22 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/roshankumar1991/ip.git (master) completed!
+Sep 15, 2022 3:00:22 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/ip-dashboard/ip-dashboard/reposense-report
-Sep 15, 2022 12:53:25 AM reposense.RepoSense main
-INFO: Elapsed processing time: 1.36 second(s)
+Sep 15, 2022 3:00:22 AM reposense.RepoSense main
+INFO: Elapsed processing time: 1.00 second(s)
